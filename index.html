@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Mahasiswa</title>
+  </head>
+  <body>
+    <main>
+      <h1>Form Pendaftaran Mahasiswa Baru</h1>
+      <section>
+        <div class="data-diri">
+          <div class="title">
+            <h2>Data Diri</h2>
+          </div>
+          <form action="#" class="form-content">
+            <div class="content content-left">
+              <div class="sub-content">
+                <p>Nama Lengkap :</p>
+                <input type="text" placeholder="Masukan Nama Lengkap" />
+              </div>
+              <div class="sub-contents">
+                <div class="sub-content sub-content-left">
+                  <p>Tempat Lahir :</p>
+                  <input type="text" placeholder="Masukan Tempat Lahir" />
+                </div>
+                <div class="sub-content sub-content-right">
+                  <p>Tanggal Lahir :</p>
+                  <input type="date" />
+                </div>
+              </div>
+              <div class="sub-contents">
+                <div class="sub-content sub-content-left">
+                  <p>Kewarganegaraan :</p>
+                  <select>
+                    <option value="#">Pilih</option>
+                  </select>
+                </div>
+                <div class="sub-content sub-content-right">
+                  <p>Agama :</p>
+                  <select>
+                    <option value="#">Pilih</option>
+                  </select>
+                </div>
+              </div>
+              <div class="sub-contents">
+                <div class="sub-content sub-content-left">
+                  <p>Email :</p>
+                  <input type="text" placeholder="Masukan Email" />
+                </div>
+                <div class="sub-content sub-content-right">
+                  <p>No Telp :</p>
+                  <input type="text" placeholder="Masukan No Telp" />
+                </div>
+              </div>
+            </div>
+
+            <div class="content content-right">
+              <div class="sub-content">
+                <p>Nomor Identitas (NIK) :</p>
+                <input type="text" placeholder="Masukan Nomor NIK" />
+              </div>
+              <div class="sub-content">
+                <p>Jenis Kelamin :</p>
+                <select>
+                  <option value="#">Pilih</option>
+                  <option value="#">Pria</option>
+                  <option value="#">Wanita</option>
+                </select>
+              </div>
+              <div class="sub-content">
+                <p>Nama Ibu Kandung :</p>
+                <input type="text" placeholder="Masukan Nama Ibu Kandung" />
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="data-address">
+          <div class="title">
+            <h2>Data Alamat Asal</h2>
+          </div>
+          <div class="content">
+            <div class="sub-contents">
+              <div class="sub-content">
+                <p>Alamat :</p>
+                <textarea cols="50" rows="3"></textarea>
+              </div>
+              <div class="sub-content">
+                <p>Kode Pos :</p>
+                <input type="text" placeholder="Kode Pos" />
+              </div>
+            </div>
+
+            <div class="sub-contents">
+              <div class="sub-content grow">
+                <p>Provinsi :</p>
+                <select>
+                  <option value="#">Aceh</option>
+                </select>
+              </div>
+              <div class="sub-content grow">
+                <p>Kabupaten :</p>
+                <select>
+                  <option value="#">Pilih</option>
+                </select>
+              </div>
+              <div class="sub-content grow">
+                <p>Kecamatan :</p>
+                <select>
+                  <option value="#">Pilih</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="data-pendidikan">
+          <div class="title">
+            <h2>Data Pendidikan</h2>
+          </div>
+          <div class="content">
+            <div class="sub-contents">
+              <div class="sub-content grow">
+                <p>Pendidikan Terakhir :</p>
+                <select>
+                  <option value="#">SMA - IPA</option>
+                </select>
+              </div>
+              <div class="sub-content grow">
+                <p>Nama Sekolah :</p>
+                <input type="text" placeholder="Masukan Nama Sekolah" />
+              </div>
+              <div class="sub-content grow">
+                <p>Rata-rata Nilai Rapor Kelas 12 :</p>
+                <input
+                  type="text"
+                  placeholder="Masukan Nilai Rata-rata raport"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="program-studi">
+          <div class="title">
+            <h2>Pilihan Program Studi</h2>
+          </div>
+          <div class="content">
+            <div class="sub-contents">
+              <div class="sub-content" style="width: 32%">
+                <p>Pilihan Program Studi 1 :</p>
+                <select>
+                  <option value="#">Pilih</option>
+                </select>
+              </div>
+              <div class="sub-content" style="width: 32%">
+                <p>Pilihan Program Studi 2 :</p>
+                <select>
+                  <option value="#">Pilih</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <div class="buttons">
+          <button class="daftar">Daftar</button>
+          <button class="reset">Reset</button>
+      </div>
+    </form>
+    </main>
+  </body>
+</html>

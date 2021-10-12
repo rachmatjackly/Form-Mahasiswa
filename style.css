@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 50%;
+  margin: 0 auto;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+  margin: 30px;
+}
+
+section {
+  margin-bottom: 15px;
+}
+
+.data-diri,
+.data-address,
+.data-pendidikan,
+.program-studi,
+.buttons {
+  text-align: left;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.title h2 {
+  padding: 10px;
+  background: cyan;
+}
+
+.form-content {
+  display: flex;
+  gap: 50px;
+}
+
+.content-left {
+  flex-grow: 2;
+}
+.content-right {
+  flex-grow: 1;
+}
+
+.content p {
+  font-size: 20px;
+}
+
+.sub-contents {
+  display: flex;
+  gap: 20px;
+}
+
+.sub-content {
+  margin-bottom: 10px;
+}
+
+.sub-content p {
+  margin-bottom: 5px;
+}
+
+.sub-content-left,
+.sub-content-right {
+  width: 50%;
+}
+
+input,
+select {
+  width: 100%;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.grow {
+  flex-grow: 1;
+  width: 33%;
+}
+
+.buttons {
+  margin-bottom: 50px;
+}
+
+button {
+  font-size: 15px;
+  color: white;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+.reset {
+  background: grey;
+  border-color: grey;
+}
+
+.daftar {
+  background: blue;
+  border-color: blue;
+}
